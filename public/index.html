@@ -1,34 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <!DOCTYPE html>
+    <html lang="en-AU">
+    <head>
+       <title>React component | CANAXESS</title>  
+    
+      <link rel="stylesheet" type="text/css" media="all" href="../css/main.css"/>
+      <link rel="stylesheet" type="text/css" media="all" href="../css/media-queries.css"/>     
+    
+      <meta name="msapplication-TileColor" content="#225270">
+      <meta name="theme-color" content="#225270">
+      <meta name="Author" content="CANAXESS">
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="viewport" content="initial-scale=1.0">
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <header class="header">
+      <div class="header-measure">
+        <div class="header-logo">
+          <a href="https://www.canaxess.com.au"><img src="../images/logo.png" width="270" height="63" alt="home"></a>
+        </div>
+      </div>
+    </header>
+
+    <main>     
+      <div class="heading">
+        <div class="heading-measure">	
+          <h1 class="heading-title" id="main">React & API demonstration</h1>
+          <p class="heading-text">This demo receives JSON from an API endpoint, Loading specific CSS frameworks (either Foundation or Bootstrap) and renders the plain text within an aria-live React component</p> 
+        </div>
+      </div>
+    </main>
+
+    <div class="content">
+      <noscript>You need to enable JavaScript to run this app.</noscript>
+      <div id="root"></div>
+    </div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
