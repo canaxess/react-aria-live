@@ -57,8 +57,8 @@ To set environment variables for the Node process.
 * [/setframework?FRAMEWORK=angular](https://canaxess-immersive-reader.herokuapp.com/setframework?FRAMEWORK=angular)
 
 ## Prerequisites
-* Ensure CORS policy is updated to deployed URL on node.js server
-* Ensure create-react-app buildpack is used and not node.js [https://github.com/mars/create-react-app-buildpack.git](https://github.com/mars/create-react-app-buildpack.git)
+* Ensure CORS policy is updated to deployed URL on Node.js server
+* Ensure create-react-app buildpack is used for Heroku and not Node.js [https://github.com/mars/create-react-app-buildpack.git](https://github.com/mars/create-react-app-buildpack.git)
 
 ## Development Environment
 * `yarn start` Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
