@@ -46,17 +46,13 @@ Presentation uses CSS grid beginning at grid-column 3 with a minimum size of `20
 }
 ```
 
+## CI/CD Integration
+git push triggers an automatic deployment to Heroku [https://react-aria-live-component.herokuapp.com/](https://react-aria-live-component.herokuapp.com/)
+
 ## Prerequisites
 * Ensure CORS policy is updated to deployed URL on node.js server
 * Ensure create-react-app buildpack is used and not node.js [https://github.com/mars/create-react-app-buildpack.git](https://github.com/mars/create-react-app-buildpack.git)
 
 ## Development Environment
-`yarn start`<br/>
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-`yarn build`<br/>
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.
+* `yarn start` Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* `yarn build` Builds the app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes.
