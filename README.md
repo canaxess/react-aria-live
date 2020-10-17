@@ -49,6 +49,13 @@ Presentation uses CSS grid beginning at grid-column 3 with a minimum size of `20
 ## CI/CD Integration
 `git push` triggers an automatic deployment to Heroku [https://react-aria-live-component.herokuapp.com/](https://react-aria-live-component.herokuapp.com/)
 
+## API endpoints
+To set environment variables for the Node process.
+* [/setframework?FRAMEWORK=bootstrap](https://canaxess-immersive-reader.herokuapp.com/setframework?FRAMEWORK=bootstrap)
+* [/setframework?FRAMEWORK=foundation](https://canaxess-immersive-reader.herokuapp.com/setframework?FRAMEWORK=foundation)
+* [/setframework?FRAMEWORK=react](https://canaxess-immersive-reader.herokuapp.com/setframework?FRAMEWORK=react)
+* [/setframework?FRAMEWORK=angular](https://canaxess-immersive-reader.herokuapp.com/setframework?FRAMEWORK=angular)
+
 ## Prerequisites
 * Ensure CORS policy is updated to deployed URL on node.js server
 * Ensure create-react-app buildpack is used and not node.js [https://github.com/mars/create-react-app-buildpack.git](https://github.com/mars/create-react-app-buildpack.git)
