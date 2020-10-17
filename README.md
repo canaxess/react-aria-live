@@ -12,7 +12,9 @@ If the CSS framework is `Bootstrap`, three boxes use the alert colours from Boot
 if (cssframework === "BOOTSTRAP") {
     return (
         <div className="grid">
-        <link rel="stylesheet" type="text/css" href={"https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css?" + milliseconds} />
+        <link rel="stylesheet" type="text/css" 
+        href={"https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css?" 
+        + milliseconds} />
 ```
 
 Basic telemetry is provided in the catch of the `fetch()` method. If for whatever reason communication is lost, the error is caught and output into the first box.
