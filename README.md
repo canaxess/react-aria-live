@@ -47,7 +47,7 @@ Presentation uses CSS grid beginning at grid-column 3 with a minimum size of `20
 ```
 
 ## CI/CD Integration
-git push triggers an automatic deployment to Heroku [https://react-aria-live-component.herokuapp.com/](https://react-aria-live-component.herokuapp.com/)
+`git push` triggers an automatic deployment to Heroku [https://react-aria-live-component.herokuapp.com/](https://react-aria-live-component.herokuapp.com/)
 
 ## Prerequisites
 * Ensure CORS policy is updated to deployed URL on node.js server
