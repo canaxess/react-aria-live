@@ -58,7 +58,7 @@ To set environment variables for the Node process.
 
 ## Prerequisites
 * Ensure CORS policy is updated to deployed URL on Node.js server
-* Ensure create-react-app buildpack is used for Heroku and not Node.js [https://github.com/mars/create-react-app-buildpack.git](https://github.com/mars/create-react-app-buildpack.git)
+* Ensure [create-react-app buildpack](https://github.com/mars/create-react-app-buildpack.git) is used for Heroku and not Node.js
 
 ## Development Environment
 * `yarn start` Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
