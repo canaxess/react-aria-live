@@ -6,7 +6,7 @@ This communicates to an API endpoint on the [Node.js server](https://github.com/
 ```
 
 ## How it works
-If the CSS framework is `Bootstrap`, three boxes use the alert colours from Bootstrap CSS. If the CSS framework is `Foundation` no colouring is applied. Conditional rendering is applied to reference the CSS in the returned JSON, with a timestamp added to prevent caching. JS framework values are for reference and provide no functionality.
+If the CSS framework is `Bootstrap` or `Foundation`, three boxes use the alert colours from the respective CSS libraries. Conditional rendering is applied to reference the CSS in the returned JSON, with a timestamp added to prevent caching. JS framework values are for reference and provide no functionality.
 
 ```javascript
 if (cssframework === "BOOTSTRAP") {
@@ -47,7 +47,7 @@ Presentation uses CSS grid beginning at grid-column 3 with a minimum size of `20
 ```
 
 ## CI/CD Integration
-`git push` triggers an automatic deployment to Heroku [https://react-aria-live-component.herokuapp.com/](https://react-aria-live-component.herokuapp.com/)
+`git push` triggers an automatic deployment to [Heroku](https://react-aria-live-component.herokuapp.com/)
 
 ## API endpoints
 To set environment variables for the Node process.
