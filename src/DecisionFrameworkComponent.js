@@ -35,9 +35,9 @@ class DecisionFrameworkComponent extends React.Component {
       return (
         <div className="grid">
           <link rel="stylesheet" type="text/css" href={"https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css?" + milliseconds} />
-          <AlertComponent isCustomLiveRegion={true} ariaLive="polite" ariaAtomic={false} ariaRelevant="additions" message={this.state.APIerror}/>
-          <AlertComponent messageType="status" message={this.state.sCSSframework}/> 
-          <AlertComponent messageType="alert" message={this.state.sJSframework}/> 
+          <AlertComponent isCustomLiveRegion={true} ariaLive="polite" ariaAtomic={false} ariaRelevant="additions" message={this.state.APIerror} cssframework={this.state.sCSSframework}/>
+          <AlertComponent messageType="status" message={this.state.sCSSframework} cssframework={this.state.sCSSframework}/> 
+          <AlertComponent messageType="alert" message={this.state.sJSframework} cssframework={this.state.sCSSframework}/> 
         </div>
       );
     }
@@ -45,9 +45,9 @@ class DecisionFrameworkComponent extends React.Component {
     return (
       <div className="grid">
           <link rel="stylesheet" href={"https://cdnjs.cloudflare.com/ajax/libs/foundation/6.6.3/css/foundation.min.css?" + milliseconds} />
-          <AlertComponent isCustomLiveRegion={true} ariaLive="polite" ariaAtomic={false} ariaRelevant="additions" message={this.state.APIerror}/>
-          <AlertComponent messageType="status" message={this.state.sCSSframework}/> 
-          <AlertComponent messageType="status" message={this.state.sJSframework}/> 
+          <AlertComponent isCustomLiveRegion={true} ariaLive="polite" ariaAtomic={false} ariaRelevant="additions" message={this.state.APIerror} cssframework={this.state.sCSSframework}/>
+          <AlertComponent messageType="status" message={this.state.sCSSframework} cssframework={this.state.sCSSframework}/> 
+          <AlertComponent messageType="status" message={this.state.sJSframework} cssframework={this.state.sCSSframework}/> 
       </div>);
     }
   }
